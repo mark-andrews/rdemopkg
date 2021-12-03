@@ -1,0 +1,26 @@
+---
+title: "How to Calculate Logits and Inverse Logits"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to Calculate Logits and Inverse Logits}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rdemopkg)
+```
+
+We can use the `logit` command to calculate the log odds of a vector of probabilities.
+For example,
+```{r}
+logit(probabilities$p)
+```
+
