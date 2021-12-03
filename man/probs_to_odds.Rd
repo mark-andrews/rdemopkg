@@ -20,5 +20,5 @@ to \code{p} is \code{p/(1-p)}.
 }
 \examples{
 p <- c(0.25, 0.5, 0.75)
-probs_to_odds(q)
+probs_to_odds(p)
 }

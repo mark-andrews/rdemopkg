@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' p <- c(0.25, 0.5, 0.75)
-#' probs_to_odds(q)
+#' probs_to_odds(p)
 probs_to_odds <- function(p) {
   p/(1-p)
 }
