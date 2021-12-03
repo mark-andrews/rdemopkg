@@ -1,6 +1,6 @@
 Package: rdemopkg
 Title: Functions for Calculating Log Odds and Related Quantities
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given="Mark", family="Andrews",
            email="mark.andrews@ntu.ac.uk",
